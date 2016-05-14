@@ -1,0 +1,152 @@
+/*
+**************
+* Miscellaneous
+**************
+*/
+
+.container_12{
+  margin-top: 10px;
+}
+
+
+a{
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+a:hover, .selected{
+  color: black;
+}
+
+p{
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(85, 85, 85);
+
+}
+
+
+h1,h3,h2{
+  letter-spacing: -1px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 25px;
+}
+
+h1{
+  font-size: 26px;
+  font-style: italic;
+  font-family: cursive;
+}
+
+h2{
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 32px;
+}
+
+h3{
+  padding-top: 22px;
+}
+
+.banner h4{
+  padding-top: 85px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  font-family: cursive;
+
+}
+/*
+**************
+* Header
+**************
+*/
+header{
+  overflow: hidden;
+
+}
+
+header h1{
+  background: url(../images/logo.png) no-repeat;
+  text-indent: -9999px;
+  width: 150px;
+  height: 110px;
+  margin: 10px 10px 20px 10px;;
+  float: left;
+
+}
+
+/*
+**************
+* Navigator
+**************
+*/
+
+nav{
+  float: right;
+  padding-top: 95px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 15px;
+  
+}
+nav li{
+  display: inline;
+
+}
+
+
+/*
+**************
+* Banner
+**************
+*/
+
+.banner{
+  background: url(../images/taxi.jpg) no-repeat;
+  width: 1025px;
+  height: 390px;
+}
+
+/*
+**************
+* Main
+**************
+*/
+
+.main{
+  margin-top: 30px
+
+}
+
+
+.main h1:before,
+.main h1:after{
+  color: #bfbfbf;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.main h1:before{
+    content: '“';
+}
+.main h1:after{
+  content: '”';
+
+}
+/*
+**************
+* Footer
+**************
+*/
+
+footer{
+  clear: both;
+  text-align: center;
+  background-color: lightblue;
+}
+
+footer li{
+  display: inline;
+
+}
